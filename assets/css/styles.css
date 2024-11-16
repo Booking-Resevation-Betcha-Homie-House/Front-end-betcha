@@ -1,0 +1,47 @@
+.dropdown-toggle::after {
+  display: none;
+  margin-left: .255em;
+  vertical-align: .255em;
+  content: "";
+  border-top: .3em solid;
+  border-right: .3em solid transparent;
+  border-bottom: 0;
+  border-left: .3em solid transparent;
+}
+
+#book-now-btn {
+  margin-left: 8px;
+}
+
+#dropdown-account {
+}
+
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #127845;
+  --bs-btn-border-color: #127845;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #0F663B;
+  --bs-btn-hover-border-color: #0E6037;
+  --bs-btn-focus-shadow-rgb: 219,235,227;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #0E6037;
+  --bs-btn-active-border-color: #0E5A34;
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #127845;
+  --bs-btn-disabled-border-color: #127845;
+}
+
+.navbar-nav {
+  --bs-nav-link-padding-x: 0;
+  --bs-nav-link-padding-y: 0.5rem;
+  --bs-nav-link-color: var(--bs-navbar-color);
+  --bs-nav-link-hover-color: var(--bs-primary);
+  --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+

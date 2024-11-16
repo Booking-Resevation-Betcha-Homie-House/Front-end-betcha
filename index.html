@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Betcha-User-Logged-in</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/bs-theme-overrides.css">
+    <link rel="stylesheet" href="assets/css/Navbar-Right-Links-icons.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<script> 
+    window.onload = function() {
+        ping()
+    }
+    
+</script>
+<body class="d-xl-flex justify-content-xl-center align-items-xl-center" style="--bs-body-bg: #F4F3F2;background: #c1d5cb;">
+
+    <div class="modal fade" id="serverStatusModal" tabindex="-1" aria-labelledby="serverStatusModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="serverStatusModalLabel">Server Status</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                The server is running.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="okayButton">Okay</button>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="d-xl-flex justify-content-xl-center align-items-xl-center" style="width: 100vw;height: 100vh;"><span class="loader"></span></div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets\js\functions.js"></script>
+    <script src="functions/checkServer.js"></script>
+</body>
+
+</html>
